@@ -1,3 +1,5 @@
 git pull
 java -Xmx1024M -Xms1024M -jar forge.jar nogui
+git add ./*
+git commit -m "Closed server"
 git push
