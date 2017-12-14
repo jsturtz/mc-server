@@ -1,0 +1,68 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  MalisisCorePlugin (malisiscore-1.10.2-4.4.0.jar)
+Contact their authors BEFORE contacting forge
+
+// Hey, that tickles! Hehehe!
+
+Time: 11/12/17 1:39 PM
+Description: Exception in server tick loop
+
+Missing Mods:
+	mantle : [1.10.2-1.1.4,)
+
+net.minecraftforge.fml.common.MissingModsException: Mod tconstruct (Tinkers' Construct) requires [mantle@[1.10.2-1.1.4,)]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:256)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:526)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:97)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:328)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:121)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:431)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_91, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 725888584 bytes (692 MB) / 1007157248 bytes (960 MB) up to 1007157248 bytes (960 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.32 Powered by Forge 12.18.3.2185 20 mods loaded, 20 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	U	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	U	FML{8.0.99.99} [Forge Mod Loader] (forge.jar) 
+	U	Forge{12.18.3.2185} [Minecraft Forge] (forge.jar) 
+	U	architecturecraft{1.7.3} [ArchitectureCraft] (ArchitectureCraft-1.7.3-mc1.10.2.jar) 
+	U	BiomesOPlenty{5.0.0.2290} [Biomes O' Plenty] (BiomesOPlenty-1.10.2-5.0.0.2290-universal.jar) 
+	U	cfm{4.1.2} [MrCrayfish's Furniture Mod] (cfm-4.1.2-mc1.10.2.jar) 
+	U	chiselsandbits{12.16} [Chisels & Bits] (chiselsandbits-12.16.jar) 
+	U	PTRModelLib{1.0.0} [PTRModelLib] (Decocraft-2.4.3_1.10.2.jar) 
+	U	props{2.4.3} [Decocraft] (Decocraft-2.4.3_1.10.2.jar) 
+	U	fastleafdecay{v11} [Fast Leaf Decay] (FastLeafDecay-v11.jar) 
+	U	JEI{3.14.7.420} [Just Enough Items] (jei_1.10.2-3.14.7.420.jar) 
+	U	journeymap{1.10.2-5.4.6} [JourneyMap] (journeymap-1.10.2-5.4.6.jar) 
+	U	LunatriusCore{1.1.2.38} [LunatriusCore] (LunatriusCore-1.10.2-1.1.2.38-universal.jar) 
+	U	malisisblocks{1.10.2-4.2.0} [Malisis Blocks] (malisisblocks-1.10.2-4.2.0.jar) 
+	U	malisiscore{1.10.2-4.4.0} [MalisisCore] (malisiscore-1.10.2-4.4.0.jar) 
+	U	malisisdoors{1.10.2-5.2.0} [MalisisDoors] (malisisdoors-1.10.2-5.2.0.jar) 
+	U	Schematica{1.7.8.153} [Schematica] (Schematica-1.10.2-1.7.8.153-universal.jar) 
+	U	tconstruct{1.10.2-2.6.5.10} [Tinkers' Construct] (TConstruct-1.10.2-2.6.5.jar) 
+	U	Waila{1.7.0} [Waila] (Waila-1.10.2.jar) 
+	U	worldedit{6.1.4} [WorldEdit] (worldedit-forge-mc1.10.2-6.1.4-dist.jar) 
+	Loaded coremods (and transformers): 
+MalisisCorePlugin (malisiscore-1.10.2-4.4.0.jar)
+  net.malisis.core.util.chunkcollision.ChunkCollisionTransformer
+  net.malisis.core.util.chunkblock.ChunkBlockTransformer
+  net.malisis.core.renderer.transformer.MalisisRendererTransformer
+  net.malisis.core.renderer.icon.asm.TextureMapTransformer
+  net.malisis.core.util.clientnotif.ClientNotifTransformer
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
