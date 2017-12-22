@@ -1,36 +1,21 @@
-[13:30:39] [Server thread/INFO]: Starting minecraft server version 1.10.2
-[13:30:50] [Server thread/INFO]: Loading properties
-[13:30:50] [Server thread/INFO]: Default game type: SURVIVAL
-[13:30:50] [Server thread/INFO]: Generating keypair
-[13:30:50] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:30:50] [Server thread/INFO]: Using epoll channel type
-[13:30:50] [Server thread/INFO]: Preparing level "world"
-[13:30:51] [Server thread/INFO]: Preparing start region for level 0
-[13:30:53] [Server thread/INFO]: Preparing spawn area: 0%
-[13:30:54] [Server thread/INFO]: Preparing spawn area: 22%
-[13:30:55] [Server thread/INFO]: Done (4.713s)! For help, type "help" or "?"
-[13:32:42] [User Authenticator #1/INFO]: Disconnecting com.mojang.authlib.GameProfile@fe16cd6[id=<null>,name=Ellytorch,properties={},legacy=false] (/10.0.1.43:54147): Authentication servers are down. Please try again later, sorry!
-[13:32:42] [User Authenticator #1/ERROR]: Couldn't verify username because servers are unavailable
-[13:32:42] [Server thread/INFO]: com.mojang.authlib.GameProfile@fe16cd6[id=<null>,name=Ellytorch,properties={},legacy=false] (/10.0.1.43:54147) lost connection: Authentication servers are down. Please try again later, sorry!
-[13:32:59] [User Authenticator #2/INFO]: Disconnecting com.mojang.authlib.GameProfile@1db2e54e[id=<null>,name=Ellytorch,properties={},legacy=false] (/10.0.1.43:54164): Authentication servers are down. Please try again later, sorry!
-[13:32:59] [User Authenticator #2/ERROR]: Couldn't verify username because servers are unavailable
-[13:32:59] [Server thread/INFO]: com.mojang.authlib.GameProfile@1db2e54e[id=<null>,name=Ellytorch,properties={},legacy=false] (/10.0.1.43:54164) lost connection: Authentication servers are down. Please try again later, sorry!
-[13:33:24] [User Authenticator #3/INFO]: Disconnecting com.mojang.authlib.GameProfile@315ecf61[id=<null>,name=Ellytorch,properties={},legacy=false] (/10.0.1.43:54199): Authentication servers are down. Please try again later, sorry!
-[13:33:24] [User Authenticator #3/ERROR]: Couldn't verify username because servers are unavailable
-[13:33:24] [Server thread/INFO]: com.mojang.authlib.GameProfile@315ecf61[id=<null>,name=Ellytorch,properties={},legacy=false] (/10.0.1.43:54199) lost connection: Authentication servers are down. Please try again later, sorry!
-[13:41:50] [User Authenticator #4/INFO]: Disconnecting com.mojang.authlib.GameProfile@6313b4f1[id=<null>,name=CheshireCatGrinn,properties={},legacy=false] (/10.0.1.44:51346): Authentication servers are down. Please try again later, sorry!
-[13:41:50] [User Authenticator #4/ERROR]: Couldn't verify username because servers are unavailable
-[13:41:50] [Server thread/INFO]: com.mojang.authlib.GameProfile@6313b4f1[id=<null>,name=CheshireCatGrinn,properties={},legacy=false] (/10.0.1.44:51346) lost connection: Authentication servers are down. Please try again later, sorry!
-[13:42:52] [User Authenticator #5/INFO]: Disconnecting com.mojang.authlib.GameProfile@274759c9[id=<null>,name=CheshireCatGrinn,properties={},legacy=false] (/10.0.1.44:51348): Authentication servers are down. Please try again later, sorry!
-[13:42:52] [User Authenticator #5/ERROR]: Couldn't verify username because servers are unavailable
-[13:42:52] [Server thread/INFO]: com.mojang.authlib.GameProfile@274759c9[id=<null>,name=CheshireCatGrinn,properties={},legacy=false] (/10.0.1.44:51348) lost connection: Authentication servers are down. Please try again later, sorry!
-[13:47:08] [Server thread/INFO]: Stopping the server
-[13:47:08] [Server thread/INFO]: Stopping server
-[13:47:08] [Server thread/INFO]: Saving players
-[13:47:08] [Server thread/INFO]: Saving worlds
-[13:47:08] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[13:47:08] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[13:47:08] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[13:47:08] [Server Shutdown Thread/INFO]: Stopping server
-[13:47:08] [Server Shutdown Thread/INFO]: Saving players
-[13:47:08] [Server Shutdown Thread/INFO]: Saving worlds
+[13:47:36] [Server thread/INFO]: Starting minecraft server version 1.10.2
+[13:47:46] [Server thread/INFO]: Loading properties
+[13:47:46] [Server thread/INFO]: Default game type: SURVIVAL
+[13:47:46] [Server thread/INFO]: Generating keypair
+[13:47:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:47:46] [Server thread/INFO]: Using epoll channel type
+[13:47:49] [Server thread/INFO]: Preparing level "world"
+[13:47:49] [Server thread/INFO]: Preparing start region for level 0
+[13:47:50] [Server thread/INFO]: Preparing spawn area: 0%
+[13:47:52] [Server thread/INFO]: Preparing spawn area: 23%
+[13:47:52] [Server thread/INFO]: Done (5.376s)! For help, type "help" or "?"
+[13:48:07] [User Authenticator #1/INFO]: Disconnecting com.mojang.authlib.GameProfile@2a1fe363[id=<null>,name=CheshireCatGrinn,properties={},legacy=false] (/10.0.1.44:51367): Authentication servers are down. Please try again later, sorry!
+[13:48:07] [User Authenticator #1/ERROR]: Couldn't verify username because servers are unavailable
+[13:48:07] [Server thread/INFO]: com.mojang.authlib.GameProfile@2a1fe363[id=<null>,name=CheshireCatGrinn,properties={},legacy=false] (/10.0.1.44:51367) lost connection: Authentication servers are down. Please try again later, sorry!
+[14:03:25] [Server thread/INFO]: Stopping the server
+[14:03:25] [Server thread/INFO]: Stopping server
+[14:03:25] [Server thread/INFO]: Saving players
+[14:03:25] [Server thread/INFO]: Saving worlds
+[14:03:25] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[14:03:25] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[14:03:25] [Server thread/INFO]: Saving chunks for level 'world'/The End
