@@ -1,21 +1,21 @@
-[15:31:43] [Server thread/INFO]: Starting minecraft server version 1.10.2
-[15:31:54] [Server thread/INFO]: Loading properties
-[15:31:54] [Server thread/INFO]: Default game type: SURVIVAL
-[15:31:54] [Server thread/INFO]: Generating keypair
-[15:31:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:31:54] [Server thread/INFO]: Using epoll channel type
-[15:31:54] [Server thread/INFO]: Preparing level "world"
-[15:31:55] [Server thread/INFO]: Preparing start region for level 0
-[15:31:57] [Server thread/INFO]: Preparing spawn area: 0%
-[15:31:58] [Server thread/INFO]: Preparing spawn area: 28%
-[15:31:59] [Server thread/INFO]: Done (4.660s)! For help, type "help" or "?"
-[15:32:33] [User Authenticator #1/INFO]: Disconnecting com.mojang.authlib.GameProfile@72bc4bbf[id=<null>,name=Ellytorch,properties={},legacy=false] (/10.0.1.43:55182): Authentication servers are down. Please try again later, sorry!
-[15:32:33] [User Authenticator #1/ERROR]: Couldn't verify username because servers are unavailable
-[15:32:34] [Server thread/INFO]: com.mojang.authlib.GameProfile@72bc4bbf[id=<null>,name=Ellytorch,properties={},legacy=false] (/10.0.1.43:55182) lost connection: Authentication servers are down. Please try again later, sorry!
-[15:34:13] [Server thread/INFO]: Stopping the server
-[15:34:13] [Server thread/INFO]: Stopping server
-[15:34:13] [Server thread/INFO]: Saving players
-[15:34:13] [Server thread/INFO]: Saving worlds
-[15:34:13] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[15:34:13] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[15:34:13] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[15:43:29] [Server thread/INFO]: Starting minecraft server version 1.10.2
+[15:43:40] [Server thread/INFO]: Loading properties
+[15:43:40] [Server thread/INFO]: Default game type: SURVIVAL
+[15:43:40] [Server thread/INFO]: Generating keypair
+[15:43:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:43:40] [Server thread/INFO]: Using epoll channel type
+[15:43:41] [Server thread/INFO]: Preparing level "world"
+[15:43:41] [Server thread/INFO]: Preparing start region for level 0
+[15:43:43] [Server thread/INFO]: Preparing spawn area: 0%
+[15:43:45] [Server thread/INFO]: Preparing spawn area: 13%
+[15:43:45] [Server thread/INFO]: Done (4.938s)! For help, type "help" or "?"
+[15:43:58] [User Authenticator #1/INFO]: Disconnecting com.mojang.authlib.GameProfile@2cc0c677[id=<null>,name=Ellytorch,properties={},legacy=false] (/10.0.1.43:55221): Authentication servers are down. Please try again later, sorry!
+[15:43:58] [User Authenticator #1/ERROR]: Couldn't verify username because servers are unavailable
+[15:43:58] [Server thread/INFO]: com.mojang.authlib.GameProfile@2cc0c677[id=<null>,name=Ellytorch,properties={},legacy=false] (/10.0.1.43:55221) lost connection: Authentication servers are down. Please try again later, sorry!
+[15:44:44] [Server thread/INFO]: Stopping the server
+[15:44:44] [Server thread/INFO]: Stopping server
+[15:44:44] [Server thread/INFO]: Saving players
+[15:44:44] [Server thread/INFO]: Saving worlds
+[15:44:44] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[15:44:44] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[15:44:44] [Server thread/INFO]: Saving chunks for level 'world'/The End
