@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "1a97d6d7-5538-3648-99ef-54970893e9e1",
+    "name": "chesirecatgrinn",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "c0b6375a-be14-48e0-b1d6-966824dbc12a",
     "name": "LadyDiggory",
     "level": 4,
@@ -25,6 +31,12 @@
   },
   {
     "uuid": "d679842a-4ff0-45bd-b2ad-f3a9fcb11d02",
+    "name": "CheshireCatGrinn",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "525b3a35-21c8-389b-822c-e40633144dbe",
     "name": "CheshireCatGrinn",
     "level": 4,
     "bypassesPlayerLimit": false
